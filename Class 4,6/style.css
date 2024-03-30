@@ -1,0 +1,44 @@
+/* external style */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* selector */
+/* by class
+    by id */
+/* by tag name 001 */
+h1 {
+    /* property */
+    /* text color */
+    color: orange;
+    font-size: 80px;
+    background-color: aqua;
+
+}
+
+/* by class name 010*/
+.h1_tag {
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* other fonts are backup fonts */
+    font-size: 80px;
+    background-color: whitesmoke;
+}
+
+/* by id 100*/
+#id1 {
+    color: black;
+    font-size: 80px;
+    background-color: mediumspringgreen;
+}
+
+p {
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* css spacifity
+id > class > tag */

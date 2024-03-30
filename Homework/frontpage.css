@@ -1,0 +1,19 @@
+.up {
+    height: 50px;
+    width: 100%;
+}
+
+.up bg {
+    height: 50px;
+    width: max-content;
+    
+}
+
+
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}

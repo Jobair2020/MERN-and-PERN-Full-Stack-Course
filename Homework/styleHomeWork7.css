@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    /* background-color: black; */
+    
+}
+
+h1 {
+    color: rgb(51, 187, 51);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px rgb(8, 22, 51) solid;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.element {
+    width: 200px;
+    border: 1px gray solid;
+}
+
+.uber-btn {
+    background: black;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+    margin: 5px;
+
+}
+
+.github-btn {
+    background: rgb(113, 175, 101);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.amazon-btn {
+    background: rgb(242, 222, 106);
+    border: none;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 20px;
+    margin: 5px;
+}

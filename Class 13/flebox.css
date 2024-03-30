@@ -1,0 +1,45 @@
+.flexbox-container {
+    background-color: aqua;
+    display: flex;
+    /* justify-content: space-between; horizontal */
+    /* equally take space between them */
+    /* justify-content: space-around;  equally distribute space in left and right */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; jayga nahoile nicher dike asbe */
+    
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid green;
+}
+
+.flexbox-item-1 {
+    order: 3; /*to show in mobile mode one after another order wise */
+    min-height: 100px;
+    /*flex-grow: 1; /* will distribute between them */
+    /*
+    flex-grow: 2; /* double than the other grow not equally double*/
+    /*flex-grow: -2; /* ????*/
+    /*flex-basis: 0; /* 0 pixel theke suru korba ar 2 gun jaga niba.*/
+    /* align-self: flex-start;
+    */
+}
+
+.flexbox-item-2 {
+    order: 1;
+    min-height: 200px;
+    /*flex-shrink: 0; /* shrink hobe na */
+    /*align-self: center;
+    align-self: flex-end; /* for controlling individual items in flex display */
+}
+
+.flexbox-item-3 {
+    order: 2;
+    min-height: 300px;
+   /* flex-grow: 1; /* joto screen width barbe toto expand hobe as much as you can*/
+    /*flex-basis: 0; /* 0 pixel theke suru korba ar 1 gun jaga niba.*/
+}

@@ -1,0 +1,32 @@
+.parent {
+    position: relative;
+    height: 300vh;
+}
+
+.child-one {
+    background-color: aqua;
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    
+    /* top: 0; */
+    /* left: 0;
+    right: 0; */
+    
+    
+    z-index: 1000;
+}
+
+.child-two {
+    background-color: green;
+}
+
+.child-three {
+    background-color: orange;
+    position: sticky;
+    top: 0;/* when the element goes to top 0 then sticks there. */
+}
+
+.child {
+    padding: 10px;
+}

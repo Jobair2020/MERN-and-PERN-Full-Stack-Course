@@ -1,0 +1,57 @@
+/* Unit: pixel 1/96 of 1 inch */
+button {
+    border: 2px solid green;
+    /* padding: 2px 4px 2px 4px; */
+    /* padding: 10px 40px; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.child1 {
+    background-color: red;
+    margin-right: 5px;
+}
+
+.child2 {
+    background-color: green;
+}
+
+.parent {
+    display: flex;
+    /* vertical-alignmet */
+    align-items: center;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* horizontal aligment */
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    border: 5px rebeccapurple solid;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: end; */
+    gap: 20px;
+}
+
+.button1 {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: yellow;
+}

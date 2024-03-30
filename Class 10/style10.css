@@ -1,0 +1,33 @@
+body {
+    background-color: rebeccapurple;
+}
+
+
+.box {
+    /* width: auto; */
+    width: 300px;
+    height: 50px;
+
+    border: 1px solid red;
+}
+
+.main {
+   display: grid;
+    /* grid-template-columns: 400px 450px; */
+    /* grid-template-columns: 1fr 1fr 1fr;
+     */
+     /* grid-template-columns: repeat(30,1fr); */
+    /* fr -> fraction */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2px;
+}
+/* grid grid-cols-2 md:grid-ols-3 */
+
+@media screen and (max-width: 600px) {
+    .main {
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

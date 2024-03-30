@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.parent {
+    position: relative;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-nav {
+    position: relative;
+}
+
+.navbar-left {
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 78px;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+
+}
