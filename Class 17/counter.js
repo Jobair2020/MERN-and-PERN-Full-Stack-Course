@@ -5,9 +5,12 @@ function increment() {
   // console.log("clicked")
   if (count < 10) {
     ++count;
+  } else {
+    alert('count can not be bigger than 10')
   }
 
   display.innerText = count;
+  return
 }
 
 function decrement() {
@@ -18,6 +21,7 @@ function decrement() {
   }
 
   display.innerText = count;
+  return
 }
 
 const display = document.getElementById("counter");
