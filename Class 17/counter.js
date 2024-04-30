@@ -28,5 +28,5 @@ const decBtn = document.getElementById("decrement");
 
 incBtn.addEventListener("click", increment);
 
-// decBtn.addEventListener("click", decrement);
+decBtn.addEventListener("click", decrement);
 // decBtn.addEventListener
