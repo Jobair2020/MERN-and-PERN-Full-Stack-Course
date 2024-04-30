@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="info">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <p>Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <button>Click Me ></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main flex flex-col md:flex-row md:gap-5">
+        <div class="left" data-aos="zoom-in">
+            <h1>Create profiles for kids</h1>
+            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+        </div>
+        <div class="right" data-aos="zoom-in-up">
+            <img src="kids.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="main">
+        <div class="right" data-aos="flip-left">
+            <img src="kids.png" alt="">
+        </div>
+        <div class="left" data-aos="flip-right">
+            <h1>Create profiles for kids</h1>
+            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+        </div>
+        
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
