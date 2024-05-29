@@ -10,18 +10,22 @@ function clearListContainer(){
 
 btn.addEventListener('click',function(){
     clearListContainer()
-
-    productList.forEach(function (product){
-        const productElement = getProductItem(product,'blue')
-        const listItem = document.createElement('li')
-        listItem.appendChild(productElement)
-        listContainer.appendChild(listItem)
+    // foreach return kore te parbe na.
+    productList.forEach(function (product,index){
+        let bgColor = 'white'
+        if(index % 2 === 1){
+            bgColor = 'gray-300'
+        }
+        const productElement = getProductItem(product,bgColor)
+        // const listItem = document.createElement('li')
+        // listItem.appendChild(productElement)
+        listContainer.appendChild(productElement)
     })
 
 
 })
 
-function getProductItem (product,bgColor='white',borderColor='sky' ) {
+function getProductItem(product,bgColor,borderColor='sky' ) {
     const productElement = document.createElement('div')
     productElement.className = `flex border border-${borderColor}-500 my-2 justify-center bg-${bgColor}` 
     productElement.innerText = product.toUpperCase()
@@ -35,7 +39,7 @@ btnMap.addEventListener('click',function () {
     const listItems = productList.map(function (product,index){
         let bgColor = 'white'
         if(index % 2 === 1){
-            bgColor = 'nautral-200'
+            bgColor = 'red-400'
         }
         return getProductItem(product,bgColor,'red')
     })
@@ -50,9 +54,8 @@ function add(num1,num2){
     return num1 + num2
 }
 
-add(...[5,6]) //destructure
+add(...[5,6]) //de structure
 // listContainer.append('item1','item2')
-
 
 const products = [{id:1,name:'pen'},{id:2,name:'paper'}]
 
